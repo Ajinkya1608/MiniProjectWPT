@@ -1,0 +1,192 @@
+
+body{
+    margin:0;
+    background: linear-gradient(
+      rgba(39, 39, 39, 0.5),
+      rgba(252, 251, 251, 0.5)
+    ),
+    url("kharghar2.jpg");
+    
+    background-size: cover;
+    height: auto;
+    
+}
+.maindiv{
+    display: flex;
+    height: 100vh;
+    /*background: darkgreen;*/
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.margindiv{
+    flex:1.5;
+    /*background: hotpink;*/
+}
+.md1{
+flex: 4;
+display: flex;
+/*background: darkred;*/
+justify-content: center;
+margin-left: 100px;
+flex-direction: column;
+height: 300px;
+}
+
+.subdiv2{
+    flex: 4;
+    /*background: dimgrey;*/
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.boxdivmar{
+    flex: 0.3;
+    display: flex;
+    height: 100px;
+   /*background: fuchsia;*/
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.subdiv1{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    font-size: 48pt; 
+    /*color: rgb(19, 138, 212);*/
+    background: linear-gradient(
+            to right, #f11515, #ff6b08,
+             #d6cb2a, #e5f172);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        margin-bottom: 16px;
+        
+}
+
+.infodiv,.infodiv2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: rgb(0, 0, 0);
+}
+.input1{
+    border-color: rgb(238, 238, 238);
+    border-style: solid;
+    border-radius: 8px;
+    height:50px;
+    width:340px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    padding-left: 4%;
+    margin-left:4%;
+    margin-top: 4%;
+}
+.input2{
+border-color: rgb(238, 238, 238);
+    border-style: solid;
+    border-radius: 8px;
+    height:50px;
+    width:360px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    padding-left: 4%;
+    margin-left:4%;
+    margin-top: 4%;
+    color: gray;
+}
+.button1{
+    color:white;
+    border-color: rgb(238, 238, 238);
+    border-style: solid;
+    border-radius: 8px;
+    height:50px;
+    width:365px;
+    margin-left:4%;
+    margin-top: 4%;
+    font-family:arial, serif;
+    font-size: 16pt;
+    padding-left: 4%;
+    /*background:rgb(19, 138, 212);*/
+    background: rgb(43, 28, 28);
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 10;
+}
+.div4{
+        font-size: 12pt;
+        margin-top: 16px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        margin-bottom: 16px;
+    }
+
+    .button2{
+        border-color: rgb(238, 238, 238);
+        border-style: solid;
+        border-radius: 8px;
+        height:50px;
+        width:190px;
+        margin-left:25%;
+        margin-top: 16px;
+        font-family:arial, serif;
+        font-size: 12pt;
+        padding-left: 3%;
+        /*background:rgb(36, 172, 18);*/
+        background: gray;
+        font-weight: bolder;
+        text-align: center;
+        color:white;
+        cursor: pointer;
+        transition: 0.2s;
+        }
+
+        .md2{
+            border:2px;
+            background:rgb(58, 56, 56);
+            opacity: 0.75;
+            border-style:solid;
+            border-color: rgb(37, 36, 36);
+            height: 360px;
+            width: 400px;
+            border-radius: 10px;
+            color:white;
+            box-shadow: 2px 2px 10px rgb(46, 45, 45);
+        }
+    .underline{
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top:16px;
+        color: rgb(231, 227, 227);
+    }
+    a{
+        text-decoration: none;
+        color:rgb(19, 138, 212);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .button1:hover{
+        background:rgb(0, 2, 3); ;
+    }
+    .button2:hover{
+        background:rgb(13, 14, 13);
+    }
+    a:hover{
+     color: darkblue;
+     filter: brightness(100%);
+    }
+    .op1,.op2{
+        color: rgb(0, 0, 0);
+    }
+    .subdiv1:hover{
+        color: blue;
+    }
+    
+  
+
+
+
